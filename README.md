@@ -70,3 +70,4 @@
 # 14- React Hooks - useState
   - import React, { useState } from 'react'
   - const [state, setstate] = useState(initialState)
+  - Don't user for Class Component. It's just for Functional Component
