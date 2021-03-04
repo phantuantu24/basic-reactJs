@@ -71,3 +71,7 @@
   - import React, { useState } from 'react'
   - const [state, setstate] = useState(initialState)
   - Don't user for Class Component. It's just for Functional Component
+  - Normal useState
+  - useState with prevState
+  - useState with Object
+  - useState with Array
