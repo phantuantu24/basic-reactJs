@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import Counter from './components/Counter';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        {/* <ClickCounterTwo />
+        <HoverCounterTwo />
+        <User name={(isLoggedIn) => isLoggedIn ? "PhanTuanTu" : "Guest"}/> */}
+        <Counter counter={(count, incrementCount) =>
+          <ClickCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          />
+        } />
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <Counter counter={(count, incrementCount) =>
+          <HoverCounterTwo
+            count={count}
+            incrementCount={incrementCount}
+          />
+        } />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
