@@ -84,3 +84,4 @@
   - usrEffect after render (UseEffectHook.js)
   - useEffect with conditional run (UseEffectWithCondition.js)
   - useEffect run only once with empty array params (UseEffectRunOnlyOnce.js)
+  - useEffect with clean up when show/hide other component then we need to unmount them (UseEffectWithCleanUp.js)
