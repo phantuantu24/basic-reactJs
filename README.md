@@ -87,3 +87,4 @@
   - useEffect with clean up when show/hide other component then we need to unmount them (ClassMouse.js, UseEffectWithCleanUp.js, UseEffectRunOnlyOnce.js)
   - useEffect with incorrect dependency (IntervalClassCounter.js, UseEffectWithIncorrectDependency.js)
 # 16 - Fetching Data with useEffect
+  - useEffect with fetching data from url endpoints (FetchingDataUseEffectHook.js)
