@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import './App.css';
-import FetchingDataUseEffectHook from './components/FetchingDataUseEffectHook';
+import UseEffectBasicFetchingData from './components/UseEffectBasicFetchingData';
+import UseEffectRouteFetchingData from './components/UseEffectRouteFetchingData';
 export class App extends Component {
   render() {
     return (
-      <div className="App-header">
-        <FetchingDataUseEffectHook />
+      <div className="App">
+        <UseEffectRouteFetchingData />
+        {/* <UseEffectBasicFetchingData /> */}
       </div>
     )
   }
