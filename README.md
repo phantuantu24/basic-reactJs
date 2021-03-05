@@ -77,9 +77,10 @@
   - useState with Array
 # 15 - React Hooks - useEffect
   - import React, { useEffect } from 'react'
-  - useEffect(() => {})
+  - useEffect(() => {do anything}, [array of varState to track its changes to execute the function])
   - Don't use for Class Component. It's just for Funtional Component
   - It is executed every render of the component - for updating UI
-  - Instead of componentDidUpdate()
+  - Replace componentDidUpdate() to useEffect()
   - usrEffect after render (UseEffectHook.js)
   - useEffect with conditional run (UseEffectWithCondition.js)
+  - useEffect run only once with empty array params (UseEffectRunOnlyOnce.js)
