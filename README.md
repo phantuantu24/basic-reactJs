@@ -67,7 +67,7 @@
   - Using HTTP Library - Axios
   - Using lifecycle hook with componentDidDount() to do the GET and POST data
   - Render data in JSX
-# 14- React Hooks - useState
+# 14 - React Hooks - useState
   - import React, { useState } from 'react'
   - const [state, setstate] = useState(initialState)
   - Don't user for Class Component. It's just for Functional Component
@@ -75,3 +75,9 @@
   - useState with prevState
   - useState with Object
   - useState with Array
+# 15 - React Hooks - useEffect
+  - import React, { useEffect } from 'react'
+  - useEffect(() => {})
+  - Don't use for Class Component. It's just for Funtional Component
+  - It is implemented every times after render of component
+  - usrEffect after render (UseEffectHook.js)
