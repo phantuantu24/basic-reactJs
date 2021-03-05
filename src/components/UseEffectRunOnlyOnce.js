@@ -13,6 +13,11 @@ function UseEffectRunOnlyOnce() {
   useEffect(() => {
     console.log("useEffect called")
     window.addEventListener('mousemove', logMousePosition)
+    // the return function inseatd of componentWillUnmount
+    return (() => {
+      console.log('This is componentWillUnmount');
+      window.removeEventListener('mousemove', logMousePosition)
+    })
   }, []) // array empty for prevent the JXS to re-render many times
   return (
     <div>
