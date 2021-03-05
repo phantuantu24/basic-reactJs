@@ -79,5 +79,5 @@
   - import React, { useEffect } from 'react'
   - useEffect(() => {})
   - Don't use for Class Component. It's just for Funtional Component
-  - It is implemented every times after render of component
+  - It is implemented every render of the component
   - usrEffect after render (UseEffectHook.js)
