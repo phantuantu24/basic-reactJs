@@ -81,7 +81,9 @@
   - Don't use for Class Component. It's just for Funtional Component
   - It is executed every render of the component - for updating UI
   - Replace componentDidUpdate() to useEffect()
-  - usrEffect after render (UseEffectHook.js)
-  - useEffect with conditional run (UseEffectWithCondition.js)
+  - usrEffect after render (ClassCounterOne.js, UseEffectHook.js)
+  - useEffect with conditional run (ClassCounterOne.js, UseEffectWithCondition.js)
   - useEffect run only once with empty array params (UseEffectRunOnlyOnce.js)
-  - useEffect with clean up when show/hide other component then we need to unmount them (UseEffectWithCleanUp.js)
+  - useEffect with clean up when show/hide other component then we need to unmount them (ClassMouse.js, UseEffectWithCleanUp.js, UseEffectRunOnlyOnce.js)
+  - useEffect with incorrect dependency (IntervalClassCounter.js, UseEffectWithIncorrectDependency.js)
+# 16 - Fetching Data with useEffect
