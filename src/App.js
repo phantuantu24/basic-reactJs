@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css';
-import UseReducerCounter from './component.js/UseReducerCounter';
+import UseReducerComplexCounter from './component.js/UseReducerComplexCounter';
+import UseReducerSimpleCounter from './component.js/UseReducerSimpleCounter';
 
 function App() {
   return (
     <div className="App">
-      <UseReducerCounter />
+      <UseReducerComplexCounter />
+      {/* <UseReducerSimpleCounter /> */}
     </div>
   )
 }
