@@ -98,3 +98,4 @@
   - useReducer(reducerFunction, initalState)
   - newState = reducer(currentState, action)
   - useReducer return a pair of values [newState, dispath] - dispatch method to use specify the action
+  - useReducer - simple state & action 
