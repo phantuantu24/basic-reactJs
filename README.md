@@ -101,3 +101,8 @@
   - useReducer - simple state & action (UserReducerCounter.js)
   - useReducer - complex state & action with object type (UseReducerComplexCounter.js)
   - useReducer - multiple useReducer (UseReducerMultiple.js)
+  - useReducer - with useContext to share state between components as Global state management (App.js, useReducerAndUseContext folder)
+# 19 - Fetching Data with useReducer
+  - Using Axios library
+  - Re-write basic fetching data (BasicFetchingData.js)
+  - useReducer - fetching data
