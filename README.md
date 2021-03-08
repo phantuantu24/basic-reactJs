@@ -91,4 +91,5 @@
   - useEffect - fetching data with route (params is id as an example) (UseEffectRouteFetchingData.js) 
   - useEffect - fetching data through a button - get input value and http GET (UseEffecWithButtonToFetchingData.js)
 # 17 - React Hooks - useContext
-  - useContext - Using our own file to define const of context from React (NormalContext.js) - Can review at #12 (Context)
+  - useContext - Using our own file to define const of context from React and way to use them (NormalContext.js) - Can review at #12 (Context)
+  - useContext - Using useContext from react to get data to child component easily and simple with code nicer (App.js, ComponentF.js)
