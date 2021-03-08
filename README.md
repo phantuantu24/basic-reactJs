@@ -105,4 +105,4 @@
 # 19 - Fetching Data with useReducer
   - Using Axios library
   - Re-write basic fetching data (BasicFetchingData.js)
-  - useReducer - fetching data
+  - useReducer - fetching data (UseReducerFetchingData.js)
