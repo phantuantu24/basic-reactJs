@@ -98,4 +98,6 @@
   - useReducer(reducerFunction, initalState)
   - newState = reducer(currentState, action)
   - useReducer return a pair of values [newState, dispath] - dispatch method to use specify the action
-  - useReducer - simple state & action 
+  - useReducer - simple state & action (UserReducerCounter.js)
+  - useReducer - complex state & action with object type (UseReducerComplexCounter.js)
+  - useReducer - multiple useReducer (UseReducerMultiple.js)
