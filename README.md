@@ -57,13 +57,13 @@
   - Pass data from child to Perent through Prop
   - Build Class Component to do a function
   - Wrap Order Component to implement function
-# 12 - Context includes
+# 12 - Context
   - Using React.createContext()
   - Using UserProvider = UserContext.Provider
   - Using UserComsumer = UserContext.Cunsumer
   - Pass value data from ParentComponet which is wrapped by UserProvider
   - Reveive props data from ChildComponent which is wrapped by UserConsumber
-# 13 - HTTP and React include
+# 13 - HTTP and Library
   - Using HTTP Library - Axios
   - Using lifecycle hook with componentDidDount() to do the GET and POST data
   - Render data in JSX
@@ -91,3 +91,4 @@
   - useEffect - fetching data with route (params is id as an example) (UseEffectRouteFetchingData.js) 
   - useEffect - fetching data through a button - get input value and http GET (UseEffecWithButtonToFetchingData.js)
 # 17 - React Hooks - useContext
+  - useContext - Using our own file to define const of context from React (NormalContext.js) - Can review at #12 (Context)
