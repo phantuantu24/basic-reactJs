@@ -8,7 +8,7 @@ function BasicFetchingData() {
   const [post, setPost] = useState({})
 
   useEffect(() => {
-    Axios.get('https://jsonplaceholder.typicode.com/post/1')
+    Axios.get('https://jsonplaceholder.typicode.com/posts/11')
       .then(res => {
         setLoading(false)
         setError('')
