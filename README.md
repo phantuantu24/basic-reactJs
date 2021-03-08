@@ -105,4 +105,9 @@
 # 19 - Fetching Data with useReducer
   - Using Axios library
   - Re-write fetching data basically (BasicFetchingData.js)
-  - useReducer - fetching data (UseReducerFetchingData.js)
+  - useReducer for fetching data (UseReducerFetchingData.js)
+    + import useEffect, useReducer, and Axios
+    + declare initialState with object type
+    + define reducer arrow function with 2 args (state, action) and cases of fetching data
+    + declare useReducer and useEffect (useState is replaced to dispatch action)
+    + display on JSX with state.name
