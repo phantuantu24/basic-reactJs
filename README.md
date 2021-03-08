@@ -104,5 +104,5 @@
   - useReducer - with useContext to share state between components as Global state management (App.js, useReducerAndUseContext folder)
 # 19 - Fetching Data with useReducer
   - Using Axios library
-  - Re-write basic fetching data (BasicFetchingData.js)
+  - Re-write fetching data basically (BasicFetchingData.js)
   - useReducer - fetching data (UseReducerFetchingData.js)
