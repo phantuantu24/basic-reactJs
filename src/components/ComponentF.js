@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { UserContext, ChannelContext } from '../App'
 
 function ComponentF() {
+
+  const userName = useContext(UserContext)
+  const channel = useContext(ChannelContext)
+
   return (
     <div>
-      <UserContext.Consumer>
+      {/* Normal way */}
+      {/* <UserContext.Consumer>
         {
           (userValue) => (
             <div>
@@ -19,7 +24,12 @@ function ComponentF() {
             </div>
           )
         }
-      </UserContext.Consumer>
+      </UserContext.Consumer> */}
+      
+      <h3>
+        I'm using useContext for getting value more easier and more simpler
+        <h2>Username: {userName} <br/> Channel Value: {channel}</h2>
+      </h3>
     </div>
   )
 }
