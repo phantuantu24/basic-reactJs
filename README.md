@@ -93,3 +93,8 @@
 # 17 - React Hooks - useContext
   - useContext - Using our own file to define const of context from React and way to use them (NormalContext.js) - Can review at #12 (Context)
   - useContext - Using useContext from react to get data to child component easily and simple with code nicer (App.js, ComponentF.js)
+# 18 - React Hooks - useReducer
+  - useReducer is used for state management, it's alternative to useState
+  - useReducer(reducerFunction, initalState)
+  - newState = reducer(currentState, action)
+  - useReducer return a pair of values [newState, dispath] - dispatch method to use specify the action
