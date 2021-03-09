@@ -38,6 +38,7 @@
 # 6 - PureComponent and Regularomponent with ParentComponent
   - Related to control the re-rendering of Component
   - Using componentDidMount() to realize the differences
+  - React.memo(ComponentName) to prevent this component to re-render
 # 7 - Refs includes
   - Basic Refs with React.createRef()
   - Refs with Class Component
