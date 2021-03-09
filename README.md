@@ -128,3 +128,13 @@
   - Exercise with Class Component Timer normally with componentDidMount() and componentWillUnMount (ClassTimer.js)
   - Exercise Timer using Hook such as useState, useEffect then we need the useRef to handle the button with onClick function (HookTimer.js)
 ## 23 - Custom Hooks
+  - A custom Hook is a basically a JavaScript function whose name starts with "use"
+  - A custom hook cam also call other Hooks if required
+  - An exercise Custom Hook with useState and useEffect to display count and update document Title basically (DocTtileOne.js)
+  - useDocumentTitle - I have two component with the same function then i don't want to repeat the exist code (useDocumentTitle.js, DocTtitleTwo.js)
+  - useCounter - with many function (useCounter.js, CounterTwo.js)
+    + Need to return a array to use at other component by declaring const [] = useCounter()
+    + We can custom the initialCount, value which we want to increase or decrease as well as reset value
+  - useInput 
+    + Exercise with basic form (UserForm.js)
+    + Write the useInput custom hook (useInput.js)
