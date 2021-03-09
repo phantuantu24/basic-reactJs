@@ -124,5 +124,7 @@
   - useMemo(() => function, [dependency])
   - useMemo - try catch the result of a function
 ## 22 - React Hooks - useRef
-  - Exercise with a input element
-  - Using useRef, useEffect as componentDidMount()
+  - Exercise with a input element, Using useRef, useEffect as componentDidMount() (FocusInput.js)
+  - Exercise with Class Component Timer normally with componentDidMount() and componentWillUnMount (ClassTimer.js)
+  - Exercise Timer using Hook such as useState, useEffect then we need the useRef to handle the button with onClick function (HookTimer.js)
+## 23 - Custom Hooks
