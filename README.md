@@ -1,5 +1,5 @@
-# basic-reactJs
-# 1 - Hello world
+# Exercise-reactJs
+## 1 - Hello world
   - Component 
   - Functional Component
   - Class Component
