@@ -111,3 +111,4 @@
     + define reducer arrow function with 2 args (state, action) and cases of fetching data
     + declare useReducer and useEffect (useState is replaced to dispatch action)
     + display on JSX with state.name
+# 20 - React Hooks - useCallback
