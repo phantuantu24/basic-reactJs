@@ -24,7 +24,7 @@ function BasicFetchingData() {
   return (
     <div>
       { loading ?  "Loading..." : post.title }
-      { error ? error : null}
+      { error ? error : null }
     </div>
   )
 }
