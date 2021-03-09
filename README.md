@@ -116,3 +116,8 @@
   - React.memo - Basically we use exprot default Reaac.memo(ComponentName) to track the change of props or state to decide to re-render or not (review at #6)
   - useCallback is a hook that will return a memorized version of the callnack function that onl changes if one of the dependencies has changed 
   - useCallback to restrict the re-render to only component that need to re-render (improve performance). It means that it can prevent unnecessary renders
+## 21 - React Hooks - useMemo
+  - Example we have 2 counter one and two
+  - We write a function for define a number is even or add, but before rerurn we have a while loop for delay the return of function
+  - we will execute this function only for counter one, then counter two will be delayed as well
+  - useMemo(() => function, [dependency])
