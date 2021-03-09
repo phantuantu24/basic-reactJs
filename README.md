@@ -112,3 +112,6 @@
     + declare useReducer and useEffect (useState is replaced to dispatch action)
     + display on JSX with state.name
 # 20 - React Hooks - useCallback
+  - React.memo - Basically we use exprot default Reaac.memo(ComponentName) to track the change of props or state to decide to re-render or not (review at #10)
+  - useCallback is a hook that will return a memorized version of the callnack function that onl changes if one of the dependencies has changed 
+  - useCallback to restrict the re-render to only component that need to re-render (improve performance). It means that it can prevent unnecessary renders
