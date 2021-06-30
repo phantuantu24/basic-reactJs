@@ -46,7 +46,7 @@
 ## 8 - Portals
   - Using ReactDOM.createProtal(html, document.getElementById('id'))
   - Render HTML element to specific position through id of tag
-## 9 - Error Boundary includes 2 methos
+## 9 - Error Boundary includes 2 methods
   - When there is an error during rendering in lifecycle method or in the constructor of any child component
   - static getDerivedStateFromError()
   - componentDidCatch()
